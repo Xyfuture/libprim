@@ -1,5 +1,5 @@
 
 target("libprim")
     set_kind("headeronly")
-    add_installfiles("src/**/*.h",{prefixdir = "prim"})
-    add_includedirs("src/")
+    add_installfiles("src/**/*.h",{prefixdir = "include/prim/"})
+    add_includedirs("prim/")
