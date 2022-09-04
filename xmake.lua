@@ -1,4 +1,6 @@
 
+set_policy("package.include_external_headers", false)
+
 set_config("toolchain","gcc")
 
 target("libprim")
