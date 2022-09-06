@@ -1,6 +1,7 @@
 
 set_policy("package.include_external_headers", false)
 
+add_rules("mode.debug","mode.releasae")
 set_config("toolchain","gcc")
 
 target("libprim")
