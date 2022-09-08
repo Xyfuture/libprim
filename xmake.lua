@@ -6,5 +6,6 @@ set_config("toolchain","gcc")
 
 target("libprim")
     set_kind("headeronly")
-    add_installfiles("src/**.h",{prefixdir = "include/prim/"})
+    -- add_installfiles("src/**.h",{prefixdir = "include/prim/"})
+    add_headerfiles("src/(**.h)")
     add_includedirs("src/",{public=true})
